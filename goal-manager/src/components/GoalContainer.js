@@ -6,7 +6,7 @@ import Goal from "./Goal";
 function GoalsContainer() {
   const [goals, setGoalList] = useState([]);
     useEffect(() => {
-    fetch('')
+    fetch('./db.json')
     .then(res => res.json())
     .then(goalsData => {
       setGoalList(goalsData)

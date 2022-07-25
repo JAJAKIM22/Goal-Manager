@@ -6,7 +6,7 @@ function Goal({pTitle, pContent}) {
   return (
     <div>
       <h3>{pTitle}</h3>
-      
+ 
       <p>{pContent}</p>
       <button onClick={() => setRead(!done)}> {done ? "Mark As Undone" : "Mark As Done"}</button>
     </div>

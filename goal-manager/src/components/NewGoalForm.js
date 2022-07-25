@@ -11,7 +11,7 @@ function NewGoalForm() {
     };
     console.log(formData);
     event.preventDefault();
-    fetch('', {
+    fetch('./db.json', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
