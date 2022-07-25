@@ -1,24 +1,22 @@
+import React from "react";
+import GoalContainer from "./GoalContainer";
+import NewGoalForm from "./NewGoalForm";
+import Goal from "./Goal";
 
-import './App.css';
 
 function App() {
+  const [form, setForm] = React.useState(true);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="sidebar">
+        <button onClick={() => setForm(!form)}>{form ? "hide new goal form" : "Show new goal form"}</button>
+        {form && <div> <NewGoalForm /></div>}
+      </div>
+      <GoalContainer/>
     </div>
   );
-}
+  }
 
 export default App;
+
