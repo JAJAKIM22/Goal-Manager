@@ -1,0 +1,19 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "COMPLETE REACT APP",
+      "content": " Know how to fetch data."
+    },
+    {
+      "id": 2,
+      "title": "BECOME A JUNIOR DEVELOPER",
+      "content": "Get a mentor in my field"
+    },
+    {
+      "title": "new",
+      "content": "react",
+      "id": 3
+    }
+  ]
+}
