@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## `json-server --watch db.json -p 8004`
 Runs the db.json file 
-Open [http://localhost:8004/goals] to view in the browser.
+Open [http://localhost:8004/goals](http://localhost:8004/goals) to view in the browser.
 
 
 ### `npm start`
