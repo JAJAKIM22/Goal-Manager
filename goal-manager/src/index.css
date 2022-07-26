@@ -11,40 +11,51 @@ body {
 .sidebar {
   min-height: 100vh;
   min-width: 12em;
+  margin-top:100px; 
   width: 28%;
   border-right: solid black 1px;
   background: #e5fdff;
   padding: 1em;
 }
+.goals-container{
+  margin-top:100px; 
+ }
+
+ .new-goal-form{
+  margin-top:100px; 
+ }
+ .sidebar{
+  margin-top:100px; 
+ }
 
 .sidebar > button {
   width: 100%;
 }
 
-.poems-container {
+.goals-container {
   max-width: 30em;
   margin: auto;
 }
 
-.poems-container > div {
+.goals-container > div {
   border-bottom: solid 1px grey;
   padding-bottom: 1em;
   min-width: 20em;
 }
 
-.poems-container > div > button {
+.goals-container > div > button {
   min-width: 4em;
 }
 
-form.new-poem-form {
+form.new-goal-form {
   border: solid black 1px;
   padding: 1em;
   display: flex;
   flex-direction: column;
 }
 
-form.new-poem-form > input,
-form.new-poem-form > textarea {
+form.new-goal-form > input,
+form.new-goal-form > textarea {
   font-size: 1em;
   font-family: sans-serif;
   margin-bottom: 0.5em;
@@ -54,9 +65,18 @@ input[type="submit"],
 button {
   font-weight: bold;
   font-size: 1em;
-  background: #04e8ff;
+  background: black;
   border: solid black 1px;
   padding: 0.5em;
+  color: #e5fdff;
   cursor: pointer;
 }
+
+.navbar {
+  background-color:black;
+  width: 100000%;
+  color: #e5fdff;
+  box-sizing: content-box;
+  cursor: pointer;
+  }
 

@@ -18,7 +18,7 @@ function GoalsContainer() {
 
   
   return (
-    <div className="goals-container">
+    <div class="container-fluid" className="goals-container">
      {goalsCard}
     </div>
   );

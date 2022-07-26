@@ -20,12 +20,12 @@ function NewGoalForm() {
     });}
 
   return (
-    <form onSubmit={handleSubmit} className="new-goal-form">
+    <form onSubmit={handleSubmit}  class="mb-3" className="new-goal-form">
       <input value={title}
         onChange={(e) => setTitle(e.target.value)} placeholder="Title" />
       <textarea value={content}
         onChange={(e) => setContent(e.target.value)} placeholder="Write your Goals here..." rows={15} cols={45}/>
-      <input type="submit" value="Share your Goals" />
+      <input type="submit" value="POST GOALS" />
     </form>
   );
 }
