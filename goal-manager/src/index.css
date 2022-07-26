@@ -79,4 +79,7 @@ button {
   box-sizing: content-box;
   cursor: pointer;
   }
+  .nav-link{
+    color: #e5fdff;
+  }
 
