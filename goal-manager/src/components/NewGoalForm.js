@@ -4,6 +4,8 @@ function NewGoalForm() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   
+  
+  
   function handleSubmit(event) {
     const formData = {
       title: title,
@@ -20,13 +22,17 @@ function NewGoalForm() {
     });}
 
   return (
+    
+       
     <form onSubmit={handleSubmit}  class="mb-3" className="new-goal-form">
+      
       <input value={title}
         onChange={(e) => setTitle(e.target.value)} placeholder="Title" />
       <textarea value={content}
         onChange={(e) => setContent(e.target.value)} placeholder="Write your Goals here..." rows={15} cols={45}/>
       <input type="submit" value="POST GOALS" />
     </form>
+    
   );
 }
 
