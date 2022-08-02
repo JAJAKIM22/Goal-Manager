@@ -11,6 +11,13 @@ Runs the db.json file
 Open [http://localhost:8004/goals](http://localhost:8004/goals) to view in the browser.
 
 
+## `npm install react-router-dom`
+To be able to use routing in the application.
+
+
+## `npm install`
+To install modules for the app.
+
 ### `npm start`
 
 Runs the app in the development mode.\
